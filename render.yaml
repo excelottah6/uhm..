@@ -1,6 +1,6 @@
 services:
   - type: worker
-    name: zokou-worker
+    name: izuku-worker
     build:
       dockerfile: Dockerfile
-    command: npm run zokou
+    command: npm run izuku
