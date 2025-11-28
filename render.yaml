@@ -1,6 +1,5 @@
-services:
-  - type: worker
-    name: izuku-worker
-    build:
-      dockerfile: Dockerfile
-    command: npm run izuku
+build:
+  docker:
+    web: Dockerfile
+run:
+  web: npm start
